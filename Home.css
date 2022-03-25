@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 auto;
+    color: springgreen;
+}
+
+body {
+    background-image: url(imgs/FLORESTA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+}
+
+#button {
+    text-align: center;
+    max-width: 480px;
+}
+
+.button-cta {
+    width: 250px;
+    height: 60px;
+    background: #11998e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFF;
+    transition: all 0.5s;
+}
+
+.button-cta:hover {
+    background: #0cebeb;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    transform: scale(1.15);
+}
+
+.relogio {
+  width: 140px;
+  margin-right: 100%;
+}
+
+#relogio {
+  padding: 5px;
+  position: 0;
+  text-align: center;
+  font-size: 20pt;
+  background-color: rgb(20,30,40)
+}
+
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+    width: 350px;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 25pt;
+    font-style: italic;
+}
+
+#link_pagina_cursos, h1 {
+    border-radius: 40px;
+    box-shadow: 7px 7px 12px black;
+    background-color: rgb(20,30,40);
+    color: rgb(0, 132, 255);
+}
+
+#link_pagina_cursos {
+    width: 300px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#copy {
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+
+#gif {
+    text-align: center;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 304px) {
+    * {
+      width: 100%;
+      margin: 0 auto;
+      padding: 0;
+    }
+
+    body {
+      height: 100vh;
+    }
+  
+    #gif {
+      max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    * {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+  
+    body {
+        min-height: 550px;
+        height: 590px;
+    }
+
+    h1 {
+        width: 250px;
+        font-size: 15pt;
+        text-align: center;
+    }
+
+    .button-cta {
+      width: 150px;
+      height: 50px;
+    }
+
+    .relogio {
+      width: 100px;
+      margin-right: 100%;
+    }
+
+    #copy {
+      font-size: 10pt;
+      width: 100px;
+      text-align: center;
+    }
+    
+    #relogio {
+      padding: 5px;
+      position: 0;
+      text-align: center;
+      font-size: 15pt;
+      background-color: rgb(20,30,40)
+    }
+  
+    #gif {
+        margin-top: 40px;
+        width: 250px;
+    }
+    
+    #link_pagina_cursos {
+        font-size: 7pt;
+        text-align: center;
+        width: 230px;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+    * {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0;
+    }
+    
+    h1 {
+        text-align: center;
+        margin-top: 100px;
+        margin-bottom: 70px;
+    }
+
+    #gif {
+        text-align: center;
+        width: 300px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+}

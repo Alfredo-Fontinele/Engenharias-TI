@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  color: springgreen;  
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: springgreen;
+  border-radius: 5px;
+  border: 2px solid #09807C;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(20,40,40);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 100%;
+  background-image: url(imgs/FLORESTA.jpg);
+  background-size: cover;  
+  background-attachment: fixed;
+  font-family: 'Luxurious Roman', cursive;
+  font-size: 12pt;
+  margin-bottom: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  max-width: 1100px;    /* Esses Pixels determinam o Tamanho da Div que tem a Tabela e os textos */
+  display: flex;
+  flex-direction: column;
+  align-items: center;  
+  justify-content: center;
+}
+
+div {
+  border-radius: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background: #485563;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #29323c, #485563);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #29323c, #485563); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  box-shadow: 7px 7px 15px black;
+  justify-content: center;
+  align-items: center;
+}
+
+.relogio {
+  width: 140px;
+  margin-right: 100%;
+}
+
+#relogio {
+  padding: 5px;
+  position: 0;
+  text-align: center;
+  font-size: 20pt;
+  background-color: rgb(20,30,40)
+}
+
+h1 {
+  border-radius: 30px;
+  background-color: rgb(32, 59, 67);
+  box-shadow: 7px 7px 15px black;
+  color: springgreen;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 600px;
+  height: 50px;
+}
+
+p, details {
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  color: springgreen;
+  text-align: left;
+}
+
+details p {
+  text-align: center;
+  background-color: rgb(32, 59, 67);
+  box-shadow: 7px 7px 15px black;
+  margin-top: 20px;
+  border-radius: 40px;
+  padding: 10px;
+  width: 300px;
+}
+
+summary {
+  cursor: pointer;
+}
+
+#link-home {
+  margin-top: 20px;
+  text-align: center;
+  color: springgreen;
+}
+
+ul {
+  color: springgreen;
+}
+
+li {
+  text-align: left;
+  max-width: 700px;
+}
+
+table {
+  padding: 5px;
+  background-color: #203A43;
+  color: white;
+  margin-top: 50px;
+  margin-right: auto;
+  margin-left: auto;
+  height: 150px;
+  width: 700px;
+}
+
+table th {
+  text-align: center;
+  border-radius: 30px;
+  background-color: springgreen;
+  color: slateblue;
+}
+
+table tr {
+  color: springgreen;
+  text-align: center;
+}
+
+div {
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+    
+  * {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: serif;
+  }
+
+  h1 {
+    padding-top: 10px;
+    max-width: 300px;
+    height: 100px;
+  }
+
+  p {
+    margin: 0 auto;
+    font-size: 15pt;
+    text-align: center;
+    max-width: 350px;
+  }
+
+  li {
+    font-size: 10pt;
+    max-width: 250px;
+  }
+
+  div {
+    width: 450px;
+  }
+
+  table {
+    background-color: #203A43;
+    margin-top: 50px;
+    height: 400px;
+    max-width: 100px;
+  }  
+
+  table th {
+    text-align: center;
+    border-radius: 30px;
+    background-color: springgreen;
+    color: slateblue;
+  }
+
+  #link-home {
+    margin-top: 20px;
+    text-align: center;
+    color: springgreen;
+  }
+
+  div p {
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 10pt;
+  }
+
+  details p {
+    text-align: center;
+  }
+
+  table th {
+      border-radius: 10px;
+      background-color: springgreen;
+      color: slateblue;
+  }
+
+  table tr {
+      color: mediumspringgreen;
+  }
+}
